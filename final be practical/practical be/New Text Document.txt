@@ -1,0 +1,33 @@
+1. command
+sudo apt update  
+sudo apt install python3-venv  
+python3 -m venv tfenv  
+source tfenv/bin/activate  
+pip install --upgrade pip  
+pip install tensorflow  
+pip install notebook  
+pip install scikit-learn  
+यानंतर ही कमांड टाका:
+
+jupyter notebook
+
+
+
+if not works .
+2. commands
+If notebook isn't installed directly try installing jupyterlab first
+
+sudo apt update  
+sudo apt install python3-venv  
+python3 -m venv tfenv  
+source tfenv/bin/activate  
+pip install --upgrade pip  
+pip install tensorflow jupyterlab notebook scikit-learn
+
+
+
+if not works 
+3. commands 
+conda create --name myenv
+conda init
+conda activate myenv
